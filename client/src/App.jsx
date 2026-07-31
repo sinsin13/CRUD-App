@@ -1,9 +1,13 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl text-red-500">CRUD App</h1>
+      <title>CRUD APP</title>
+      <Navbar />
+      <Home />
     </div>
   );
 }
